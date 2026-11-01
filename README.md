@@ -186,7 +186,7 @@ under a header of session stats. A `SessionStart` hook,
 play's standing rules.
 
 **The template repository itself keeps no logs.** In the template's own repo
-(package `app-template`, origin `8xsocial/template-monorepo`) the logger writes
+(package `app-template`, origin `8xsocial/starter-monorepo-template`) the logger writes
 nothing and says why, and CI (`npm run check:template`) fails if a log or an
 agent worktree is committed there. Any copy logs from its first session.
 

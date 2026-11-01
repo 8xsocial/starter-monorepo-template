@@ -91,14 +91,17 @@ function runCheck(root, extra = ['--template']) {
 }
 
 test('a copy of the template is told apart from the template itself', () => {
-	assert.equal(isTemplateRepository({ githubRepository: '8xsocial/template-monorepo' }), true)
+	assert.equal(
+		isTemplateRepository({ githubRepository: '8xsocial/starter-monorepo-template' }),
+		true
+	)
 	assert.equal(isTemplateRepository({ githubRepository: 'someone/my-play' }), false)
 	assert.equal(
-		isTemplateRepository({ originUrl: 'git@github.com:8xsocial/template-monorepo.git' }),
+		isTemplateRepository({ originUrl: 'git@github.com:8xsocial/starter-monorepo-template.git' }),
 		true
 	)
 	assert.equal(
-		isTemplateRepository({ originUrl: 'https://github.com/8xsocial/template-monorepo' }),
+		isTemplateRepository({ originUrl: 'https://github.com/8xsocial/starter-monorepo-template' }),
 		true
 	)
 	assert.equal(isTemplateRepository({ originUrl: 'https://github.com/pair-7/my-play.git' }), false)

@@ -7,7 +7,7 @@ every run, an exit code CI can gate on.
 
 The list below was tested by bringing a plain-Node/Supabase pipeline, which
 shares none of the web template's framework choices, onto these standards.
-[template-web](https://github.com/8xsocial/template-web) is where the
+[starter-web-template](https://github.com/8xsocial/starter-web-template) is where the
 standards come from and where their definition lives; the check keeps it
 honest.
 

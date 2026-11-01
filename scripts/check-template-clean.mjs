@@ -26,7 +26,7 @@ import { spawnSync } from 'node:child_process'
 import { pathToFileURL } from 'node:url'
 
 export const TEMPLATE_PACKAGE_NAME = 'app-template'
-export const TEMPLATE_REPOSITORY = '8xsocial/template-monorepo'
+export const TEMPLATE_REPOSITORY = '8xsocial/starter-monorepo-template'
 
 const LOG_DIRS = ['.claude-logs', '.codex-logs']
 // What a log directory may hold in the template: the note that explains it,

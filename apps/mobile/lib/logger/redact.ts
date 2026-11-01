@@ -1,4 +1,4 @@
-// Copied verbatim from 8xsocial/template-web src/server/lib/logger/redact.ts,
+// Copied verbatim from 8xsocial/starter-web-template src/server/lib/logger/redact.ts,
 // so the app and the server scrub the same keys and the same values. Change it
 // there first, then copy it here. __tests__/redact.test.ts is the same contract,
 // ported to Jest.
