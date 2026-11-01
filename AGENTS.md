@@ -54,7 +54,7 @@ app (`apps/mobile`), a Next.js marketing site, admin panel and API (`apps/web`),
 package (`packages/brand`) and a Supabase backend (`supabase/`). Every gap in it is copied into
 every play. Keep it small, honest and correct. After cloning, trim this file to your play.
 
-It follows the web template, [8xsocial/template-web](https://github.com/8xsocial/template-web).
+It follows the web template, [8xsocial/starter-web-template](https://github.com/8xsocial/starter-web-template).
 Where it differs, [the section below](#where-this-repo-differs-from-template-web) says so and
 why.
 

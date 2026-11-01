@@ -308,7 +308,7 @@ def backfill(cwd, force=False):
 TEMPLATE_PACKAGE_NAME = "app-template"
 
 
-TEMPLATE_REMOTE = re.compile(r"github\.com[:/]8xsocial/template-monorepo(\.git)?/?$", re.IGNORECASE)
+TEMPLATE_REMOTE = re.compile(r"github\.com[:/]8xsocial/starter-monorepo-template(\.git)?/?$", re.IGNORECASE)
 
 
 def is_template_repo():

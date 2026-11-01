@@ -58,7 +58,7 @@ scrolled past, redact it in the transcript rather than allowlisting it
 ([docs/rules/secrets.md](docs/rules/secrets.md)).
 
 The template repository keeps no logs of its own: nothing is written in the template's own repo
-(package `app-template` and origin `8xsocial/template-monorepo`), and `npm run check:template`
+(package `app-template` and origin `8xsocial/starter-monorepo-template`), and `npm run check:template`
 fails its CI if a log is committed there anyway. Every copy logs from its first session.
 
 ## Memory
